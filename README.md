@@ -1,29 +1,23 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Nginx-proxy for sentrumbookstore website.
 
-### What is this repository for? ###
+# Installation
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## 1. Create directory for nginx-proxy
 
-### How do I get set up? ###
+```shell
+mkdir nginx-proxy && cd nginx-proxy
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## 2. Clone this repository
 
-### Contribution guidelines ###
+```shell
+git clone .
+```
 
-* Writing tests
-* Code review
-* Other guidelines
+## 3. Run nginx-proxy
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+```shell
+./nginx-proxy-up.sh
+```
