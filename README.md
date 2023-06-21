@@ -1,22 +1,20 @@
-# README #
+# Nginx-proxy for sentrumbookstore website.
 
-Nginx-proxy for sentrumbookstore website.
+## Installation
 
-# Installation
-
-## 1. Create directory for nginx-proxy
+### 1. Create directory for nginx-proxy
 
 ```shell
 mkdir nginx-proxy && cd nginx-proxy
 ```
 
-## 2. Clone this repository
+### 2. Clone this repository
 
 ```shell
-git clone .
+git clone git@github.com:sentrum-software/sentrum-website-nginx-proxy.git .
 ```
 
-## 3. Run nginx-proxy
+### 3. Run nginx-proxy
 
 ```shell
 ./nginx-proxy-up.sh
