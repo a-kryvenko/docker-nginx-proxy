@@ -20,5 +20,5 @@ docker run --detach \
     --volumes-from nginx-proxy \
     --volume /var/run/docker.sock:/var/run/docker.sock:ro \
     --volume acme:/etc/acme.sh \
-    --env "DEFAULT_EMAIL=mr.blackkrab@gmail.com" \
+    --env "DEFAULT_EMAIL=mail@mail.com" \
     nginxproxy/acme-companion

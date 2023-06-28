@@ -1,4 +1,4 @@
-# Nginx-proxy for sentrumbookstore website.
+# Nginx-proxy for docker websites.
 
 ## Installation
 
@@ -11,7 +11,7 @@ mkdir nginx-proxy && cd nginx-proxy
 ### 2. Clone this repository
 
 ```shell
-git clone git@github.com:sentrum-software/sentrum-website-nginx-proxy.git .
+git clone git@github.com:a-kryvenko/docker-nginx-proxy.git .
 ```
 
 ### 3. Run nginx-proxy
